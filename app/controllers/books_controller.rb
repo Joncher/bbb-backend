@@ -1,7 +1,7 @@
 class BooksController << ApplicationController
 
   def create
-    @book = Book.create(book_params)
+    @book = Book.find_or_create_by(book_params)
     render json: @book
   end
 end
