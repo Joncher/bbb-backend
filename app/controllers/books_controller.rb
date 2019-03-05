@@ -10,7 +10,6 @@ class BooksController < ApplicationController
     render json: @book
   end
 
-
   private
 
   def book_params
