@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Book.destroy_all
+User.destroy_all
+
+Book.create(title: "Sorcerer's Stone")
+Book.create(title: "Prisoner of Azkaban")
+Book.create(title: "Chamber of Secrets")
+
+john = User.create(username: "John")
+ray = User.create(username: "Ray")
+steph = User.create(username: "Steph")
+
+john.books << Book.all
+ray.books << Book.first
+steph.books << Book.last
