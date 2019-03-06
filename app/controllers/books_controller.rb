@@ -6,6 +6,8 @@ class BooksController < ApplicationController
 
   def create
     @book = Book.find_or_create_by(book_params)
+    @user = User.find(params[:user_id])
+    @user.books << @book
     render json: @book
   end
 
