@@ -12,9 +12,9 @@ Book.create(title: "Sorcerer's Stone")
 Book.create(title: "Prisoner of Azkaban")
 Book.create(title: "Chamber of Secrets")
 
-john = User.create(username: "John")
-ray = User.create(username: "Ray")
-steph = User.create(username: "Steph")
+john = User.create(username: "john")
+ray = User.create(username: "ray")
+steph = User.create(username: "steph")
 
 john.books << Book.all
 ray.books << Book.first
