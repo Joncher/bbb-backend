@@ -8,9 +8,9 @@
 Book.destroy_all
 User.destroy_all
 
-Book.create(title: "Sorcerer's Stone")
-Book.create(title: "Prisoner of Azkaban")
-Book.create(title: "Chamber of Secrets")
+Book.create(title: "Sorcerer's Stone", author: 'J.K. Rowling')
+Book.create(title: "Prisoner of Azkaban", author: 'J.K. Rowling')
+Book.create(title: "Chamber of Secrets", author: 'J.K. Rowling')
 
 john = User.create(username: "john")
 ray = User.create(username: "ray")
