@@ -5,6 +5,7 @@ class BooksController < ApplicationController
   end
 
   def create
+    # byebug
     @book = Book.find_or_create_by(book_params)
     @user = User.find(params[:user_id])
     @user.books << @book
