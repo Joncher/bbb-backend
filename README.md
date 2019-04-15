@@ -1,24 +1,20 @@
-# README
+# Better Bookshelf Brand
+Website that helps users manage their books.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
+* Ability to create users via username
+* Search for books via Google Books API
+* Add books to bookshelf 
+* Open books on bookshelf to see book info
 
-Things you may want to cover:
+## Setup
+Clone this repo and the [frontend repo](https://github.com/Joncher/bbb-frontend).
+Go to the root directory of bbb-backend and run ```bundle install``` to install dependencies.
 
-* Ruby version
+## Usage
+After installing dependencies, go to root directory of bbb-backend and run ```rails s``` 
+to start the application.
+Then go to root directory of bbb-frontend and run ```open index.html``` to start using the application.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Demo
+Here is a video demo of Better Bookshelf Brand: [Demo](https://youtu.be/n3rTvE74AdE)
