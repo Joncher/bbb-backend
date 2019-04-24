@@ -1,6 +1,10 @@
 # Better Bookshelf Brand
 Website that helps users manage their books.
 
+
+<img src="https://i.imgur.com/RFfVwK0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="800" height="500" border="10" />
+
 ## Features
 * Ability to create users via username
 * Search for books via Google Books API
